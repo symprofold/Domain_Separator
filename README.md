@@ -14,3 +14,9 @@ python modules: bs4, copy, glob, math, matplotlib, networkx, numpy, os, sys, tra
     
 ## Output files
 Output fasta files with domain sequences separated by line breaks are written into the folder input/.
+
+## References
+
+If you use code or data from this project, please cite: 
+
+C. Buhlheller*, T. Sagmeister*, C. Grininger, N. Gubensäk, U. Sleytr, I. Usón, T. Pavkov-Keller, SymProFold - Structural prediction of symmetrical biological assemblies, 03 January 2024, Preprint, https://doi.org/10.21203/rs.3.rs-3830312/v1
