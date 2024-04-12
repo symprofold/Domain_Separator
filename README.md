@@ -1,9 +1,11 @@
 # Domain_Separator
 
-The tool takes a multidomain pdb file as input, identifies the structural domains and creates a FASTA file with domain sequences separated by line breaks.
+The tool takes a multidomain PDB file as input, identifies the structural domains and creates a FASTA file with domain sequences separated by line breaks.
+
 
 ## Requirements
 ChimeraX 1.6  
+
 
 ## Installation
 If you face any issues during the installation, just contact us. You find our email here: https://github.com/symprofold .
@@ -43,8 +45,14 @@ If you face any issues during the installation, just contact us. You find our em
     run "/path_to_project/Domain_Separator/domain_separator.py"
     ```
 
+
 ## Output files
 Output FASTA files with domain sequences separated by line breaks are written into the folder `input/`.
+
+
+## Notes
+Domain_Separator can also process multiple input PDB files per run, it iterates through all PDB files in the folder `input/`.
+
 
 ## References
 
