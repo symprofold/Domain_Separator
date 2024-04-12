@@ -32,7 +32,7 @@ If you face any issues during the installation, just contact us. You find our em
     * Rename the folder `Domain_Separator-main` to `Domain_Separator`.
 
 3.  Test the installation  
-    In the directory input you find a example PDB input file. Do a test run on this example, see section ‘Running Domain_Separator’.
+    In the directory input you find an example PDB input file. Do a test run on this example, see section ‘Running Domain_Separator’.
 
 
 ## Running Domain_Separator
