@@ -247,7 +247,7 @@ class ChimeraxSession():
         model_id = self.model_reg.convert_model_id(model_id)
         model_id_str = self.model_reg.convert_model_id_to_str(model_id)
 
-        ctl.d('###close '+str(model_id))
+        ctl.d('close '+str(model_id))
 
         # avoid closing of whole ChimeraX session when to_close is empty
         if len(model_id_str) >= 1:

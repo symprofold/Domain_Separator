@@ -2,6 +2,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(__file__)+'/bib/')
 
+import bibpdb
 import ctl
 import chimerax_api
 import filesystem
@@ -80,4 +81,6 @@ sess = chimerax_api.ChimeraxSession(session, 1)
 
 for f in input_files:
     ctl.d('starting file '+f)
-    separate_domains.separate_domains(f, params, options, sess)
+    bibpdb.clean_pdb(f, f+'_cleaned.pdb')
+    separate_domains.separate_domains(f+'_cleaned.pdb', f[:-4], params, options, sess)
+    os.unlink(f+'_cleaned.pdb')

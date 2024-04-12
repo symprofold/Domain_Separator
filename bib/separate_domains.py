@@ -24,7 +24,7 @@ import os
 import sys
 
 
-def separate_domains(f, params, options, sess):
+def separate_domains(f, f_out_prefix, params, options, sess):
     '''
     Separate domains of the model in input file f.
     '''
@@ -556,7 +556,7 @@ def separate_domains(f, params, options, sess):
         sess.run('tile')
 
     if options['export_cxs']:
-        sess.run('save "'+f[:-4]+'.cxs'+'"')
+        sess.run('save "'+f_out_prefix+'.cxs'+'"')
 
     if options['verbous']:
         ctl.p(dom_ranges)
@@ -566,7 +566,7 @@ def separate_domains(f, params, options, sess):
 
     # export fasta file with domain separations
     # -----------------------------------------
-    f_out = open(f[:-4]+'_d.fa', 'w')
+    f_out = open(f_out_prefix+'_d.fa', 'w')
     fasta.fasta_separations(f_out, seq, dom_boundaries)
 
     return
