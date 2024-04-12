@@ -13,7 +13,7 @@ If you face any issues during the installation, just contact us. You find our em
 1.  Install ChimeraX  
     Version: ChimeraX 1.6 (https://www.cgl.ucsf.edu/chimerax/)
 
-2.  Install SymProFold Repository  
+2.  Install the Domain_Separator repository  
     Continue with either **A)** or **B)**, depending on whether there is a Git installation on the system.
     
     ##### A) using existing Git on your system
