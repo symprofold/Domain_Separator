@@ -1,19 +1,50 @@
-# domain_separator
+# Domain_Separator
 
-The tool takes a multidomain pdb file as input, identifies the structural domains and creates a fasta file with domain sequences separated by line breaks.
+The tool takes a multidomain pdb file as input, identifies the structural domains and creates a FASTA file with domain sequences separated by line breaks.
 
 ## Requirements
 ChimeraX 1.6  
-python modules: bs4, copy, glob, math, matplotlib, networkx, numpy, os, sys, traceback
 
-## Running domain_separator
-1.  copy pdb files into the folder input/
-2.  start ChimeraX
-3.  execute this command:
-    run /path_to_project/Domain_Separator/domain_separator.py
+## Installation
+If you face any issues during the installation, just contact us. You find our email here: https://github.com/symprofold .
+
+1.  Install ChimeraX  
+    Version: ChimeraX 1.6 (https://www.cgl.ucsf.edu/chimerax/)
+
+2.  Install SymProFold Repository  
+    Continue with either **A)** or **B)**, depending on whether there is a Git installation on the system.
     
+    ##### A) using existing Git on your system
+    *   `cd` into the directory where you want to install Domain_Separator (example: `/path_to_project/`)
+        ```bash
+        cd /path_to_project/
+        ```
+    *   Clone the repository and `cd`  into it
+        ```bash
+        git clone https://github.com/symprofold/Domain_Separator.git
+        cd Domain_Separator/
+        ```
+
+    ##### B) without Git on your system
+    *   Download the repository as ZIP file (button 'Code', 'Download ZIP')
+    *   Move the downloaded ZIP file in the directory where you want to install Domain_Separator (example: /path_to_project/)
+    *   Extract the ZIP file in this folder
+    * Rename the folder `Domain_Separator-main` to `Domain_Separator`.
+
+3.  Test the installation  
+    In the directory input you find a example PDB input file. Do a test run on this example, see section ‘Running Domain_Separator’.
+
+
+## Running Domain_Separator
+1.  copy the input PDB file(s) into the folder `input/`
+2.  start ChimeraX
+3.  execute this command in ChimeraX:  
+    ```bash
+    run "/path_to_project/Domain_Separator/domain_separator.py"
+    ```
+
 ## Output files
-Output fasta files with domain sequences separated by line breaks are written into the folder input/.
+Output FASTA files with domain sequences separated by line breaks are written into the folder `input/`.
 
 ## References
 
