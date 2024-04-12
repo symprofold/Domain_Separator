@@ -51,7 +51,8 @@ Output FASTA files with domain sequences separated by line breaks are written in
 
 
 ## Notes
-Domain_Separator can also process multiple input PDB files per run, it iterates through all PDB files in the folder `input/`.
+*   Domain_Separator can also process multiple input PDB files per run, it iterates through all PDB files in the folder `input/`.
+*   The input PDB file(s) can contain more than one protein chain, in these cases only the first chain is analyzed.
 
 
 ## References
