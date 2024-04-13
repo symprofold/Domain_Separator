@@ -29,7 +29,7 @@ If you face any issues during the installation, just contact us. You find our em
 
     ##### B) Without Git on your system
     *   Download the repository as ZIP file (button 'Code', 'Download ZIP')
-    *   Move the downloaded ZIP file in the directory where you want to install Domain_Separator (example: /path_to_project/)
+    *   Move the downloaded ZIP file in the directory where you want to install Domain_Separator (example: `/path_to_project/`)
     *   Extract the ZIP file into this folder
     * Rename the folder `Domain_Separator-main` to `Domain_Separator`.
 
