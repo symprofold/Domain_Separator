@@ -21,7 +21,7 @@ If you face any issues during the installation, just contact us. You find our em
         ```bash
         cd /path_to_project/
         ```
-    *   Clone the repository and `cd`  into it
+    *   Clone the repository and `cd` into it
         ```bash
         git clone https://github.com/symprofold/Domain_Separator.git
         cd Domain_Separator/
@@ -30,7 +30,7 @@ If you face any issues during the installation, just contact us. You find our em
     ##### B) Without Git on your system
     *   Download the repository as ZIP file (button 'Code', 'Download ZIP')
     *   Move the downloaded ZIP file in the directory where you want to install Domain_Separator (example: /path_to_project/)
-    *   Extract the ZIP file in this folder
+    *   Extract the ZIP file into this folder
     * Rename the folder `Domain_Separator-main` to `Domain_Separator`.
 
 3.  Test the installation  
