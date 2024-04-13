@@ -16,7 +16,7 @@ If you face any issues during the installation, just contact us. You find our em
 2.  Install the Domain_Separator repository  
     Continue with either **A)** or **B)**, depending on whether there is a Git installation on the system.
     
-    ##### A) using existing Git on your system
+    ##### A) Using existing Git on your system
     *   `cd` into the directory where you want to install Domain_Separator (example: `/path_to_project/`)
         ```bash
         cd /path_to_project/
@@ -27,7 +27,7 @@ If you face any issues during the installation, just contact us. You find our em
         cd Domain_Separator/
         ```
 
-    ##### B) without Git on your system
+    ##### B) Without Git on your system
     *   Download the repository as ZIP file (button 'Code', 'Download ZIP')
     *   Move the downloaded ZIP file in the directory where you want to install Domain_Separator (example: /path_to_project/)
     *   Extract the ZIP file in this folder
@@ -46,7 +46,7 @@ If you face any issues during the installation, just contact us. You find our em
     ```
 
 
-## Output files
+## Output Files
 Output FASTA files with domain sequences separated by line breaks are written into the folder `input/`.
 
 
