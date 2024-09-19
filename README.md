@@ -59,4 +59,4 @@ Output FASTA files with domain sequences separated by line breaks are written in
 
 If you use code or data from this project, please cite: 
 
-C. Buhlheller*, T. Sagmeister*, C. Grininger, N. Gubensäk, U. Sleytr, I. Usón, T. Pavkov-Keller, SymProFold - Structural prediction of symmetrical biological assemblies, 03 January 2024, Preprint, https://doi.org/10.21203/rs.3.rs-3830312/v1
+C. Buhlheller*, T. Sagmeister*, C. Grininger, N. Gubensäk, U. Sleytr, I. Usón, T. Pavkov-Keller. SymProFold: Structural prediction of symmetrical biological assemblies. Nat Commun 15, 8152 (2024). https://www.nature.com/articles/s41467-024-52138-3
